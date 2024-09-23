@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: #f0f4f8; /* Fondo suave y claro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #2c3e50; /* Borde azul en la izquierda */
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50; /* Azul brillante */
+    margin-bottom: 30px;
+    border-bottom: 2px solid #2c3e50; /* Línea de separación azul */
+    padding-bottom: 10px;
+}
+
+/* Grupos de formulario */
+.form-group {
+    margin-bottom: 25px;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover en grupos de formulario */
+.form-group:hover {
+    background-color: #e3f2fd; /* Color suave al pasar el mouse */
+    border-radius: 8px; /* Mantiene bordes redondeados */
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333; /* Texto oscuro */
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #2c3e50; /* Borde azul */
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Campos de textarea */
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #2c3e50; /* Borde azul */
+    border-radius: 8px;
+    font-size: 1em;
+    resize: none; /* Evita que el textarea se pueda redimensionar */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al enfocarse */
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #0d47a1; /* Azul más oscuro */
+    box-shadow: 0 0 5px rgba(30, 136, 229, 0.5); /* Sombra azul */
+    outline: none;
+}
+
+/* Botón de enviar */
+button {
+    width: 100%;
+    background-color: #1e88e5; /* Azul brillante */
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0d47a1; /* Azul más oscuro */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Aviso de confidencialidad */
+.aviso {
+    margin-top: 25px;
+    font-size: 0.95em;
+    color: #555; /* Color gris oscuro */
+    text-align: center;
+    background-color: #e3f2fd; /* Fondo azul claro */
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #90caf9; /* Borde azul claro */
+}
+
+/* Estilo para los campos de género */
+input[type="radio"] {
+    margin-right: 5px;
+}
